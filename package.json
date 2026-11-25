@@ -1,0 +1,80 @@
+{
+  "name": "@arenyze/arknights-endfield",
+  "version": "0.1.0",
+  "description": "Official Arenyze SDK for the Arknights: Endfield API. Access player profiles, character information, weapons, items and multilingual game data.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js",
+      "require": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "src/",
+    "index.d.ts",
+    "types/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "typecheck": "node node_modules/typescript/lib/tsc.js -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arenyze-Network/arknights-endfield.git"
+  },
+  "homepage": "https://docs.arenyze.com/",
+  "bugs": {
+    "url": "https://github.com/Arenyze-Network/arknights-endfield/issues"
+  },
+  "funding": "https://buymeacoffee.com/mazeor",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "arenyze",
+    "arknights",
+    "arknights-endfield",
+    "arknights endfield",
+    "arknightsendfield",
+    "endfield",
+    "endfield-api",
+    "endfield-sdk",
+    "arknights-api",
+    "arknights-endfield-api",
+    "arknights-endfield-sdk",
+    "endfield-tracker",
+    "hypergryph",
+    "gryphline",
+    "player-profile",
+    "player-stats",
+    "uid",
+    "characters",
+    "weapons",
+    "game-database",
+    "game-data",
+    "gaming-api",
+    "gacha",
+    "rpg",
+    "api",
+    "sdk",
+    "api-client",
+    "api-wrapper"
+  ],
+  "author": "mazeor",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "eslint": "^10.7.0",
+    "typescript": "^7.0.2"
+  }
+}
